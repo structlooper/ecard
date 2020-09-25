@@ -6,7 +6,7 @@
                 <div class="col-lg-4 mx-auto">
                     <div class="auth-form-light text-left py-5 px-4 px-sm-5">
                         <div class="brand-logo">
-                            <img src="{{asset('public/admin/images/logo.svg')}}" alt="logo">
+                            <img src="{{asset('public/admin/images/ecard_logo.png')}}" alt="logo">
                         </div>
                         @if (session('status'))
                             <div class="alert alert-success" role="alert">

@@ -15,7 +15,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="{{asset('public/admin/css/style.css')}}">
     <!-- endinject -->
-    <link rel="shortcut icon" href="{{asset('public/admin/images/favicon.png')}}" />
+    <link rel="shortcut icon" href="{{asset('public/admin/images/ecard_logo.png')}}" />
     @yield('css')
 </head>
 <body>

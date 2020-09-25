@@ -14,6 +14,16 @@
 <!-- End plugin js for this page -->
 <!-- Custom js for this page-->
 <script src="{{asset('public/admin/js/dashboard.js')}}"></script>
+<script>
+    function logout(){
+        $('body').append(`
+            <form action="{{route('logout')}}" method="post" id="thisForm">
+            @csrf
+        </form>
+`);
+        $('#thisForm').submit();
+    }
+</script>
 @yield('js')
 <!-- End custom js for this page-->
 </body>
